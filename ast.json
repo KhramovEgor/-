@@ -1,0 +1,80 @@
+{
+  "node_type": "program",
+  "children": [
+    {
+      "node_type": "assignment",
+      "children": [
+        {
+          "node_type": "ID",
+          "value": "d"
+        },
+        {
+          "node_type": "int",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "node_type": "for",
+      "children": [
+        {
+          "node_type": "forInit",
+          "children": [
+            {
+              "node_type": "type",
+              "value": "i"
+            },
+            {
+              "node_type": "ID",
+              "value": "i"
+            },
+            {
+              "node_type": "int",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "node_type": "<",
+          "children": [
+            {
+              "node_type": "ID",
+              "value": "i"
+            },
+            {
+              "node_type": "int",
+              "value": 10
+            }
+          ]
+        },
+        {
+          "node_type": "forModify",
+          "children": [
+            {
+              "node_type": "ID",
+              "value": "i"
+            },
+            {
+              "node_type": "op",
+              "value": "++"
+            }
+          ]
+        },
+        {
+          "node_type": "forBody",
+          "children": [
+            {
+              "node_type": "print",
+              "children": [
+                {
+                  "node_type": "ID",
+                  "value": "d"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

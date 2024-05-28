@@ -1,0 +1,44 @@
+// константное сворачивание, удаление мертвого кода,
+a = 0;
+a = 1;
+b = 5.0;
+c = 2 + 3;
+print(b);
+
+
+
+//if else
+x = 2;
+y = 2.1;
+
+if x!=y{
+    print(1.2);
+  }
+  else {
+    print(22);
+  };
+
+// for
+for ( i=0; i<10; i++){
+   print(7);
+};
+
+// while
+while(1<2.5){
+   print(5);
+};
+
+// Фибоначи
+n = 10;
+a = 0;
+b = 1;
+count = 0;
+while (count < n){
+    print(a);
+    temp = a + b;
+    a = b;
+    b = temp;
+    count = count + 1;
+};
+
+clang o.ll -o o.exe & o.exe
